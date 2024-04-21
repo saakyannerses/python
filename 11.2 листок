@@ -1,0 +1,13 @@
+arr = [0] * 7
+print("Введите 7 целых чисел:")
+
+for i in range(7):
+    print(f"Элемент {i}: ", end="")
+    arr[i] = int(input())
+
+print("\nМассив заполнен следующими значениями:")
+
+for i in range(7):
+    print(arr[i], end=" ")
+
+print()
