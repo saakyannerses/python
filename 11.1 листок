@@ -1,0 +1,39 @@
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Первый элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Второй элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Третий элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Четвертый элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Пятый элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Шестой элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Седьмой элемент массива равен {value}")
+
+elements = [37, 0, 50, 46, 34, 46, 0, 13]
+
+for i, value in enumerate(elements):
+    print(f"Восьмой элемент массива равен {value}")
