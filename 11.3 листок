@@ -1,0 +1,32 @@
+import random
+
+# a) Вещественные значения в диапазоне от 0 до 1
+arr_a = [random.random() for _ in range(10)]
+
+# б) Вещественные значения x (22 < x < 23)
+arr_b = [random.uniform(22, 23) for _ in range(10)]
+
+# в) Вещественные значения x (0 <= x < 10)
+arr_c = [random.uniform(0, 10) for _ in range(10)]
+
+# г) Вещественные значения x (-50 <= x < 50)
+arr_g = [random.uniform(-50, 50) for _ in range(10)]
+
+# д) Целые значения в диапазоне от 1 до 10 включительно
+arr_d = [random.randint(1, 10) for _ in range(10)]
+
+# Вывод заполненных массивов
+print("a) Вещественные значения в диапазоне от 0 до 1:")
+print(arr_a)
+
+print("\nб) Вещественные значения x (22 < x < 23):")
+print(arr_b)
+
+print("\nв) Вещественные значения x (0 <= x < 10):")
+print(arr_c)
+
+print("\nг) Вещественные значения x (-50 <= x < 50):")
+print(arr_g)
+
+print("\nд) Целые значения в диапазоне от 1 до 10 включительно:")
+print(arr_d)
