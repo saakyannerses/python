@@ -1,0 +1,18 @@
+import math
+e = float(input("Введите значение e: "))
+f = float(input("Введите значение f: "))
+g = float(input("Введите значение g: "))
+h = float(input("Введите значение h: "))
+
+# Вычисление значения a
+a = math.sqrt(abs(pow(e - 3 / f, 3) + g))
+
+# Вычисление значения b
+b = math.sin(e) + pow(math.cos(h), 2)
+
+# Вычисление значения c
+c = 33 * g / (e * f - 3)
+
+print("Значение a:", a)
+print("Значение b:", b)
+print("Значение c:", c)
