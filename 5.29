@@ -1,0 +1,15 @@
+a = int(input("Введите значение a: "))
+b = int(input("Введите значение b: "))
+sum = 0
+count = 0
+
+if b < a:
+    print("Ошибка: b должно быть больше или равно a.")
+else:
+    for i in range(a, b+1):
+        sum += i
+        count += 1
+
+    average = sum / count
+
+    print(f"Среднее арифметическое: {average:.2f}")
